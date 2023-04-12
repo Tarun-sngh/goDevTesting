@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func PingRouter(router *gin.Engine) {
+func PingRoutes(router *gin.Engine) {
 
 	router.GET("/ping", controllers.Ping)
 

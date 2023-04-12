@@ -7,7 +7,7 @@ import (
 func SuperRouter() *gin.Engine {
 
 	router := gin.Default()
-	PingRouter(router)
+	PingRoutes(router)
 	PongRoutes(router)
 
 	return router
